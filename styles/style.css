@@ -19,7 +19,7 @@ button, summary {
 :root {
 	/* startje */
 	--color-text:rgb(0, 0, 0);
-	--color-background:rgb(241, 241, 241);
+	--color-background:#f9f6ef;
 	--font-family: 'basisFontRegular', Arial,sans-serif;
 }
 
@@ -52,6 +52,29 @@ header {
 	width: calc(5 * 4em + 2px);
 }
 
+header nav ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	padding-top: 2em;
+	padding-left: 10em;
+	position: absolute;
+	visibility: hidden;
+}
+
+header nav ul li {
+	padding-right: 2em;
+}
+
+header nav ul li:hover {
+	text-decoration: underline;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: var(--color-text);
+}
 header nav {
 	display: flex;
 	justify-content: space-between;
@@ -96,17 +119,19 @@ header nav section button:last-child::after {
 	font-weight: lighter;
 }
 
+
+/* 5 bij 4 vierkant */
 main {
 
 	position: relative;
 	margin-top: 3em;
 
-	width: calc(5 * 4em + 2px);
-	height: calc(4 * 4em + 2px);
+	width: calc(5 * 4em + 2.5px);
+	height: calc(4 * 4em + 2.5px);
 	
 	background-image: 
-	repeating-linear-gradient(to bottom, black 0px 2px, transparent 2px 4em),
-	repeating-linear-gradient(to right, black 0px 2px, transparent 2px 4em);
+	repeating-linear-gradient(to bottom, black 0px 2.5px, transparent 2px 4em),
+	repeating-linear-gradient(to right, black 0px 2.5px, transparent 2px 4em);
 }
 
 main h1 {
@@ -119,13 +144,13 @@ main h1 {
 	margin:0;
 
 	background-color: var(--color-background);
-	box-shadow: inset 0 0 0 1.5px black;
+	box-shadow: inset 0 0 0 2px black;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-weight: lighter;
-	font-size: 42px;
+	font-size: 2.6em;
 	
 }
 
@@ -146,14 +171,17 @@ main ul {
 
 main ul.open {
 	display: block;
-	max-height: 100%;
+}
+
+main ul li:hover {
+	text-decoration: underline;
 }
 
 main ul li a {
 	text-decoration: none;
 	font-family: var(--font-family);
 	color:var(--color-text);
-	font-size: 16px;
+	font-size: 15px;
 	display: block;
 	background-color: var(--color-background);
 	padding: 1em;
@@ -166,9 +194,11 @@ main ul li:nth-of-type(6) a {
 	border-bottom-width: 2px;
 }
 
+
 footer {
 	text-align: center;
 	width: calc(5 * 4em + 2px);
+	margin-top: 0.5em;
 }
 
 footer a:hover {
@@ -183,11 +213,127 @@ footer ul {
 }
 footer ul li {
 	list-style: none;
-	margin-top: 0.5em;
 }
 
 footer ul li a {
 	color: var(--color-text);
 	text-decoration: none;
 	font-size: 11px;
+}
+
+@media (min-width:46em) {
+	header nav a {
+		transform: translateY(5em);
+		background-color: var(--color-background);
+		display: block;
+		z-index: 999;
+		padding-right: 2.1em;
+		padding-bottom: 2.5em;
+		margin-bottom: -2.5em;
+	}
+	
+	main {
+		width: calc(12 * 3em + 2.5px);
+		height: calc(8 * 3em + 2.5px);
+		background-image: 
+		repeating-linear-gradient(to bottom, black 0px 2.5px, transparent 2px 3em),
+		repeating-linear-gradient(to right, black 0px 2.5px, transparent 2px 3em);
+		margin-top: 1.5em;
+	}
+	main h1 {
+		height:calc(2 * 2.98rem + 2px);
+		width:calc(8 * 3rem + 2px);
+		left: calc(3 * 3rem);
+		top: calc(1 * 3rem);
+		font-size: 4em;
+	}
+	main ul {
+		width: calc(5 * 3rem + 1px);
+		left: calc(7 * 3rem);
+		top: calc(1 * 3rem);
+	}
+	main ul li a {
+		font-size: 14.5px;
+	}
+	header {
+		width: calc(12 * 3em + 2px);
+	}
+	header nav {
+		align-items: flex-end;
+	}
+	header nav section {
+		display: flex;
+		align-items: flex-end;
+	}
+	header nav section button {
+		padding-left: 1em;
+	}
+	footer {
+		width: calc(12 * 3em + 2px);
+		margin-top: 8em;
+	}
+	footer ul {
+		display: flex;
+		justify-content: center;
+	}
+	footer ul li {
+		padding-left: 1em;
+
+	}
+}
+
+@media (min-width: 65em) {
+	main {
+		width: calc(16 * 3em + 2.5px);
+		height: calc(10 * 3em + 2.5px);
+	}
+	main ul {
+		left: calc(11 * 3rem);
+	}
+	main h1 {
+		height:calc(2 * 2.98rem + 2px);
+		width:calc(8 * 3rem + 2px);
+		left: calc(6 * 3rem);
+		top: calc(1 * 3rem);
+		font-size: 4em;
+	}
+	header {
+		width: calc(16 * 3em + 2px);
+	}
+	footer {
+		width: calc(16 * 3em + 2px);
+		margin-top: 8em;
+	}
+}
+
+@media (min-width: 76em) {
+	body {
+		margin: 1em auto;
+	}
+	header nav a {
+		margin-bottom: -1em;
+	}
+	header {
+		width: calc(20 * 3em + 2px);
+	}
+	header nav ul {
+		visibility: visible;
+	}
+	header nav {
+		align-items: flex-start;
+	}
+	header nav section {
+		align-items: flex-start;
+	}
+	main {
+		width: calc(20 * 3em + 2.5px);
+		height: calc(9 * 3em + 2.5px);
+		margin-top: 0;
+	}
+	main h1 {
+		left: calc(9 * 3rem);
+	}
+	footer {
+		width: calc(20 * 3em + 2px);
+	}
 }
