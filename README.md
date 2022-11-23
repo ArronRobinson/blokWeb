@@ -234,7 +234,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   
-  
+  <img src="images/deSchool (1).png" width="375px" alt="homepagina van de site">
+  <img src="images/Cafe (1).png" width="375px" alt="homepagina van de site">
 
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb veel geleerd tijdens dit vak. Het maken van de responsivness ging ook goed. Ik had het hiervoor namelijk nog nooit gedaan, maar ik had het al snel door. Het meeste waar ik trots zijn alle vierkantjes die ik gemaakt heb en ook dat ze mooi meegaan op verschillende schermen. Voor de rest ging het maken van de css en html ook wel goed, alhoewel ik een paar dingen niet echt mooi vind aan mijn code. 
