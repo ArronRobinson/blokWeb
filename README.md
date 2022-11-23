@@ -59,27 +59,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de screenreader worden de pagina's voorgelezen met audio. Dit is handig voor bijvoorbeeld blinden en slechtzienden
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De website werd goed gelezen en ik kon geen problemen vinden.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met deze test werd simpelweg de toegangkelijkheid getest met muis en toetsenbord.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De website was prima te bedienen met de muis, alleen niet helemaal goed met het toetsenbord. Wanneer je de TAB gebruikte om te navigeren liet de website niet zien waar je je op dat moment bevond. 
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Door middel van een shock apparaat die Parkinsons nabootst en elastiekjes die een fysieke aandoening nabootst werd de toegankelijkheid van de website getest.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het was erg lastig om met het shock apparaat de menu items aan te klikken, omdat deze erg klein waren, gelukkig is dit makkelijk op te lossen door de knopjes groter te maken.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Door middel van een aantal brillen die allemaal een andere oogaandoening nabootsten werd de website getest. Ook werd getest of de website een light en darkmode heeft.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Weer waren de knopjes erg klein waardoor het lastig was om te zien waar je op klikte en de website had geen darkmode. 
 
 </details>
 
@@ -111,7 +111,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik had niet verwacht dat het maken van deze site zo moeilijk ging zijn. Op het eerste ogenblik ziet het er erg simpel uit, maar het maken van alle vierkantjes was een grote uitdaging. 
 
 
   ### Agenda voor meeting
@@ -125,12 +125,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  
 
 </details>
 
@@ -144,7 +139,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Aardig wat progressie gemaakt met het maken van de vierkantjes, alleen het responsivness maken ervan was lastig.
 
 
   ### Agenda voor meeting
@@ -152,7 +147,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | border tussen de grid  |             | en ik dit    | en dan ik dat    |
+  |                |                    | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -177,31 +172,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De screenreader werkt prima met mijn site en ik kon geen problemen vinden.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het navigeren met de TAB werkte prima op mijn website
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik had de knopjes groter gemaakt waardoor het navigeren met de shock apparaat wel makkelijker ging. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Door de vergrootte knoppjes was het iets makkelijk om te zien met de brillen op.
+  
 </details>
 
 
@@ -214,7 +200,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Responsivness werkt en de ik heb ook het veranderen van de vierkantjes onder de knie. Moet nog wel ervoor zorgen dat de logo en foto op de goeie plekken staan over de vierkantjes.
 
 
   ### Agenda voor meeting
@@ -247,19 +233,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  
+  
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb veel geleerd tijdens dit vak. Het maken van de responsivness ging ook goed. Ik had het hiervoor namelijk nog nooit gedaan, maar ik had het al snel door. Het meeste waar ik trots zijn alle vierkantjes die ik gemaakt heb en ook dat ze mooi meegaan op verschillende schermen. Voor de rest ging het maken van de css en html ook wel goed, alhoewel ik een paar dingen niet echt mooi vind aan mijn code. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het meest lastige aan deze site waren toch de vierkantjes maken. Ook is het mij niet gelukt om de een darkmode toe te voegen aan de site.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -269,12 +253,5 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-  1. bron 1
-  2. bron 2
-  3. ...
 
 </details>
